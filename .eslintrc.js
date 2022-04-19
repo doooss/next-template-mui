@@ -23,6 +23,9 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
+    "react/self-closing-comp" : "warn",    
+    "no-unused-vars": "warn",
+    "no-unused-expressions": "warn",
   },
   settings: {
     react: {
