@@ -19,13 +19,15 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ['react', '@typescript-eslint', 'simple-import-sort'],
   rules: {
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
-    "react/self-closing-comp" : "warn",    
-    "no-unused-vars": "warn",
-    "no-unused-expressions": "warn",
+    'react/self-closing-comp': 'warn',
+    'no-unused-vars': 'off',
+    'no-unused-expressions': 'warn',
+    'simple-import-sort/imports': 'warn',
+    'simple-import-sort/exports': 'warn',
   },
   settings: {
     react: {

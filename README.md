@@ -1,13 +1,12 @@
-# Next js + MUI + Emotion.js template 2022-04
+# Next js + MUI + Emotion.js template 2022-06
 
 Next js template + MUI, Emotion ver (React 18)
-
 
 ### Installation
 
 ```bash
-  git clone -b mui --single-branch https://github.com/ldy9212/template.git
-  cd nextjs-template
+  git clone https://github.com/ldy9212/next-template-mui
+  cd next-template-mui
   npm i
 ```
 
